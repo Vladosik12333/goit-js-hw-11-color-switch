@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  padding: 100px 50px;
+}
+
+button {
+  border: none;
+
+  width: 100px;
+  height: 70px;
+
+  font-size: 20px;
+}
+
+button:last-child {
+  margin-left: 20px;
+  background-color: red;
+}
+
+button:first-child {
+  background-color: green;
+}
